@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Lilita One'; 
+    src: url('https://fonts.googleapis.com/css?family=Lilita+One');
+}
+
 body {
     background-color: #3c3c3c;
 }
@@ -6,4 +11,5 @@ h1 {
     color: #ffffff;
     text-align: center;
     font-size: 32px;
+    font-family: "Lilita One", serif  ;
 }

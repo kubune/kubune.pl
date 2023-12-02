@@ -61,3 +61,9 @@ h1 {
     font-size: 16px;
     font-family: "Lilita One", serif;
 }
+
+#the-skipper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

@@ -18,13 +18,12 @@ h1 {
     border-radius: 25px;
     border: 2px solid #ffffff;
     padding: 40px; 
-    width: auto;
-    height: auto; 
+    width: 94.5%;
+    height: 100%; 
     color: #ffffff;
     text-align: center;
     font-size: 24px;
     font-family: "Lilita One", serif;
-    padding-bottom: 400px;
 }
 
 .yt-btn {

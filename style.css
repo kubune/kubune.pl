@@ -103,6 +103,8 @@ h1 {
     width: 35%;
     height: 25%;
     margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 24px;
     font-family: "Lilita One", serif;

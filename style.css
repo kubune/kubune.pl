@@ -95,3 +95,15 @@ h1 {
     left: 50px;
     transform: rotate(20deg);
 }
+
+.video-frame {
+    border-radius: 25px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 35%;
+    height: 25%;
+    margin: auto;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Lilita One", serif;
+}

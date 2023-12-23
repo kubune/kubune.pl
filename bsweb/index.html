@@ -18,7 +18,7 @@
                 const redirectURL = `brawlstars://webview=page=${link}&popup_title=${title}`;
                 
                 // Przekieruj użytkownika
-                window.location.href = redirectURL;
+                window.location.replace(redirectURL);
             } else {
                 // Dodaj obsługę gdyby brakowało któregoś z parametrów
                 console.log("Brak parametrów 'link' lub 'title' w adresie URL.");

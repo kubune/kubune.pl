@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // Pobierz bieżący adres URL
+            const currentURL = window.location.href;
+
+            // Utwórz obiekt URLSearchParams
+            const urlParams = new URLSearchParams(currentURL);
+
+            // Pobierz wartości parametrów 'link' i 'title' z adresu URL
+            const link = urlParams.get('link');
+            const title = urlParams.get('title');
+
+            // Sprawdź czy parametry 'link' i 'title' istnieją i wykonaj odpowiednią akcję
+            if (link && title) {
+                // Utwórz adres URL dla przekierowania
+                const redirectURL = `brawlstars://webview=page=${link}&popup_title=${title}`;
+                
+                // Przekieruj użytkownika
+                window.location.href = redirectURL;
+            } else {
+                // Dodaj obsługę gdyby brakowało któregoś z parametrów
+                console.log("Brak parametrów 'link' lub 'title' w adresie URL.");
+                // Możesz tutaj wyświetlić komunikat użytkownikowi lub zastosować inne działanie.
+            }
+        </script>
+    </head>
+</html>
+<body>
+    -1
+<body>

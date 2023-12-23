@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;display=swap" rel="stylesheet">
+        <style>
+            body {
+                background-color: #105ce5;
+                height: 100%;
+                font-family: Lilita One;
+                color: white;
+                font-size: 40px;
+                text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+                line-height: 17px;
+            }
+            .buttons {
+                display: block;
+            }
+            .FriendlySideSwap {
+                position: relative;
+                align-items: center;
+                display: inline-block;
+            }
+            .buttonImage {
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+            .buttonTextIcon {
+                z-index: 1;
+                font-size: 20px;
+                text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 1px 0 #000;
+                position: absolute;
+                top: 20%;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                left: 50%;
+                transform: translateX(-50%);
+                pointer-events: none;
+            }
+            .buttonText {
+                width: 50%;
+                margin-left: 180px;
+                margin-top: -5px;
+                font-size: 2.8vw;
+                display: inline; 
+                white-space: nowrap;
+                line-height: 100%;
+            }
+            #softlockcase {
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+</html>
+<body>
+    <div class="buttons">
+        <div class="FriendlySideSwap"> <!-- Swap Friendly Battle Side -->
+            <div class="buttonTextIcon">
+                <span class="buttonText">Friendly Side<br/> Swap</span>
+            </div>
+            <a class="buttonImage" href="brawlstars://createAndJoinRoom?roomname=0&friendly=1&side=1"><img src="image/button.png" alt="Button Text" /></a>
+        </div>
+        <div class="FriendlySideSwap"> <!-- Google Webview -->
+            <div class="buttonTextIcon">
+                <span class="buttonText">Google<br/> Webview</span>
+            </div>
+            <a class="buttonImage" href="brawlstars://webview=page=https://google.com&popup_title=Google"><img src="image/button.png" alt="Button Text" /></a>
+        </div>
+        <div class="FriendlySideSwap">
+            <div class="buttonTextIcon"> <!-- Softlocks your game for session -->
+                <span class="buttonText" id="softlockcase">Softlock</span>
+            </div>
+            <a class="buttonImage" href="brawlstars://joinBand?&token=0"><img src="image/button.png" alt="Button Text" /></a>
+        </div>
+    </div>
+<body>

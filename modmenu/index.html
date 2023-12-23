@@ -3,6 +3,9 @@
     <head>
         <link href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;display=swap" rel="stylesheet">
         <style>
+            div:not(:last-child) {
+                margin-right: 40px;
+            }
             body {
                 background-color: #105ce5;
                 height: 100%;
@@ -58,19 +61,25 @@
             <div class="buttonTextIcon">
                 <span class="buttonText">Friendly Side<br/> Swap</span>
             </div>
-            <a class="buttonImage" href="brawlstars://createAndJoinRoom?roomname=0&friendly=1&side=1"><img src="image/button.png" alt="Button Text" /></a>
+            <a class="buttonImage" href="brawlstars://createAndJoinRoom?roomname=0&friendly=1&side=1"><img src="image/button.png" alt="Button" /></a>
         </div>
         <div class="FriendlySideSwap"> <!-- Google Webview -->
             <div class="buttonTextIcon">
                 <span class="buttonText">Google<br/> Webview</span>
             </div>
-            <a class="buttonImage" href="brawlstars://webview=page=https://google.com&popup_title=Google"><img src="image/button.png" alt="Button Text" /></a>
+            <a class="buttonImage" href="brawlstars://webview=page=https://google.com&popup_title=Google"><img src="image/button.png" alt="Button" /></a>
         </div>
         <div class="FriendlySideSwap">
             <div class="buttonTextIcon"> <!-- Softlocks your game for session -->
                 <span class="buttonText" id="softlockcase">Softlock</span>
             </div>
-            <a class="buttonImage" href="brawlstars://joinBand?&token=0"><img src="image/button.png" alt="Button Text" /></a>
+            <a class="buttonImage" href="brawlstars://joinBand?&token=0"><img src="image/button.png" alt="Button" /></a>
+        </div>
+        <div class="FriendlySideSwap">
+            <div class="buttonTextIcon"> <!-- Rickroll lol -->
+                <span class="buttonText" id="softlockcase">Rickroll</span>
+            </div>
+            <a class="buttonImage" href="brawlstars://webview=page=http://kubune.pl/modmenu/rickroll/index.html&popup_title=YOU JUST GOT RICKROLLED HAHHHHAHAHAHAAHA!!!!"><img src="image/button.png" alt="Button" /></a>
         </div>
     </div>
 <body>
